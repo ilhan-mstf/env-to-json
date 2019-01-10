@@ -1,12 +1,12 @@
 {
-  "name": "env_test",
-  "version": "1.0.0",
-  "description": "",
+  "name": "env_to_json",
+  "version": "0.1.0",
+  "description": "Creates a json object from environment variables",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/env-to-json.test.js"
   },
-  "author": "",
+  "author": "mustafa ilhan <ilhan.mstf@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^6.2.0",
